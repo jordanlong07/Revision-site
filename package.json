@@ -37,6 +37,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@jridgewell/sourcemap-codec": "^1.4.14",
 		"@prisma/client": "^4.7.1",
 		"lodash": "^4.17.21",
 		"prisma": "^4.7.1"
