@@ -39,6 +39,7 @@
 	"dependencies": {
 		"@jridgewell/sourcemap-codec": "^1.4.14",
 		"@prisma/client": "^4.7.1",
+		"@sveltejs/adapter-vercel": "^1.0.0",
 		"lodash": "^4.17.21",
 		"prisma": "^4.7.1"
 	}
