@@ -21,7 +21,7 @@
     {#if $auth}
         <a href="/view-questions"><p class='w-fit' >Moderate</p></a>
     {:else}
-        <a href="/login"><p class='w-fit' >Login</p></a>
+        <a href="/login"><p class='w-fit' >Admin Login</p></a>
     {/if}
     </div>
 </div>
