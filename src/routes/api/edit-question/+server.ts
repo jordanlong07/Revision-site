@@ -16,6 +16,6 @@ export const POST = async(event : any) => {
         }
     })
     
-    
+    prisma.$disconnect()
     return res
 }

@@ -16,6 +16,8 @@ export const load = async() => {
      })
 
     const getQuestions : questionType = await prisma.acronymQuestions.findMany()
+    prisma.$disconnect()
+
     return {
         questionsRaw: getQuestions,
         allTagsRaw: getTags

@@ -11,6 +11,7 @@ export const POST = async(event : any) => {
             tags: tags
         }
     })
-    
+    prisma.$disconnect()
+
     return res
 }

@@ -1,5 +1,5 @@
 import {PrismaClient} from '@prisma/client'
-export const POST = async(event) => {
+export const POST = async(event : any) => {
     const body = await event.request.json()
     console.log(body)
     const res = new Response()
@@ -10,6 +10,6 @@ export const POST = async(event) => {
         }
     })
     
-    
+    prisma.$disconnect()
     return res
 }

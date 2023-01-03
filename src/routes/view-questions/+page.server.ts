@@ -9,6 +9,8 @@ export const load = async() => {
         }
      }
     const getQuestions : questionType = await prisma.acronymQuestions.findMany()
+    prisma.$disconnect()
+
     return {
         allQuestions: getQuestions,
     }
